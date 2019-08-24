@@ -73,3 +73,12 @@ Install both **react** and **react-dom** (version 16.9.0), along with using the 
 ```
 npm install react@16.9.0 react-dom@16.9.0 --save
 ```
+
+### Installing live server for development environment
+For efficient development and rendering of the development environment, we will install the **live-server** package.
+
+Install the live-server package (version 1.2.1) along with the **--save** flag to save the package to the package.json file:
+```
+npm install live-server@1.2.1 --save
+```
+
