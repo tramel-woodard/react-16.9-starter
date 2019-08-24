@@ -21,7 +21,7 @@ Change into the **react-16.9-starter** directory:
 cd react-16.9-starter
 ```
 
-### Build your 
+### Initialize your application 
 Generate a new package.json file in your new React directory:
 ```
 npm init -y
