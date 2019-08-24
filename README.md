@@ -10,6 +10,7 @@ This is a React 16.9 starter application meant for anyone who needs to generate 
 
 This application can be generated from scratch by taking the following steps:
 
+### Build your application directory
 Open your preferred command line interface (i.e. Terminal on Mac, Run CMD on Windows, Git Bash on Mac or Windows). Locate a preferred space on your computer and create the **react-16.9-starter** directory:
 ```
 mkdir react-16.9-starter
@@ -20,6 +21,7 @@ Change into the **react-16.9-starter** directory:
 cd react-16.9-starter
 ```
 
+### Build your 
 Generate a new package.json file in your new React directory:
 ```
 npm init -y
