@@ -5,7 +5,7 @@ Simple React 16.9 Starter Application (without Redux).
 ## Summary
 This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template for work or to begin work on a personal project.
 
-### Creation of Application
+## Creation of Application
 **NOTE:** These instructions assume that you have already installed Node.js and can access npm from your computer's command line.
 This application can be generated from scratch by taking the following steps:
 
