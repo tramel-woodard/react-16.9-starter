@@ -7,6 +7,7 @@ This is a React 16.9 starter application meant for anyone who needs to generate 
 
 ## Creation of Application
 (**NOTE:** These instructions assume that you have already installed Node.js and can access npm from your computer's command line.)
+
 This application can be generated from scratch by taking the following steps:
 
 Open your preferred command line interface (i.e. Terminal on Mac, Run CMD on Windows, Git Bash on Mac or Windows). Locate a preferred space on your computer and create the **react-16.9-starter** directory:
