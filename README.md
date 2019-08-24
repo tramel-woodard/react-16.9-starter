@@ -97,7 +97,7 @@ We will now add a **src** directory with the following files inside:
 
 ```
 react-16.9-starter
-  |-- __src**
+  |-- __src__
     |-- components
       |-- App.js
       |-- Header.js
