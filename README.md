@@ -43,3 +43,10 @@ You should now have a package.json with the following contents:
   "license": "ISC"
 }
 ```
+
+### Installing your application bundling software
+Your React application will need to bundle the numerous source files into compact JavaScript files that will be eventually either served from your computer or your host provider.
+
+For this bundling functionality, we will install Parcel Bundler. Use NPM to install Parcel Bundler and save it to your package.json file (**npm i parcel-bundler** will install the package to your directory and the **--save** flag will save this package reference to your package.json file)
+```
+npm install parcel-bundler --save
