@@ -82,6 +82,6 @@ Install the live-server package (version 1.2.1) along with the **--save** flag t
 npm install live-server@1.2.1 --save
 ```
 
-### Creation of application source files
+## Creation of application source files
 Now that we have build the scaffolding for the application, it is time to build out the resource files that will be used to build the React application.
 
