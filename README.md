@@ -47,6 +47,23 @@ You should now have a package.json with the following contents:
 ### Installing your application bundling software
 Your React application will need to bundle the numerous source files into compact JavaScript files that will be eventually either served from your computer or your host provider.
 
-For this bundling functionality, we will install Parcel Bundler. Use NPM to install Parcel Bundler and save it to your package.json file (**npm i parcel-bundler** will install the package to your directory and the **--save** flag will save this package reference to your package.json file)
+For this bundling functionality, we will install Parcel Bundler (version 1.12.3). Use NPM to install Parcel Bundler and save it to your package.json file (**npm i parcel-bundler** will install the package to your directory and the **--save** flag will save this package reference to your package.json file)
 ```
-npm install parcel-bundler --save
+npm install parcel-bundler@1.12.3 --save
+```
+
+### Installing backwards compatibility packages to your application
+Not all modern JavaScript methods are readily available on all browsers and devices. Because of this, we will need to install a couple of Babel packages.
+
+Babel is a **JavaScript compiler** that allows ECMAScript 2015+ code to a backwards compatible version of JavaScript that can be consumed by both modern and older browsers.
+
+We will install two sub-packages of Babel:
+1. @babel/core - core library of Babel responsible for backwards compatible transformation.
+2. @babel/plugin-proposal-class-properties - package that resolves issues with React applications that cause **experimental syntax** (modern JavaScript) errors with some browsers.
+
+Install both packages with the "save" flag, which will save the packages to your package.json file:
+```
+npm install @babel/core @babel/plugin-proposal-class-properties --save
+```
+
+### Installing core React packages to your application
