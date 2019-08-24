@@ -53,7 +53,7 @@ npm install parcel-bundler@1.12.3 --save
 ```
 
 ### Installing backwards compatibility packages to your application
-Not all modern JavaScript methods are readily available on all browsers and devices. Because of this, we will need to install a couple of Babel packages.
+Not all modern JavaScript methods are rendered properly on older browsers and devices. Because of this, we will need to install a couple of Babel packages.
 
 Babel is a **JavaScript compiler** that allows ECMAScript 2015+ code to a backwards compatible version of JavaScript that can be consumed by both modern and older browsers.
 
