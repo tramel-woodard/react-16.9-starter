@@ -85,3 +85,25 @@ npm install live-server@1.2.1 --save
 ## Creation of application source files
 Now that we have build the scaffolding for the application, it is time to build out the resource files that will be used to build the React application.
 
+So far, the application has three files:
+````
+react-16.9-starter
+  |-- node_modules
+  |-- package.json
+  |-- package-lock.json
+```
+
+We will now add a **src** directory with the following files inside:
+
+```
+react-16.9-starter
+  |-- **src**
+    |-- components
+      |-- App.js
+      |-- Header.js
+      |-- User.js
+      
+    |-- index.css
+    |-- index.html
+    |-- index.js
+```
