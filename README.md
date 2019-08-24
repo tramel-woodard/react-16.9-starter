@@ -61,9 +61,9 @@ We will install two sub-packages of Babel:
 1. @babel/core - core library of Babel responsible for backwards compatible transformation.
 2. @babel/plugin-proposal-class-properties - package that resolves issues with React applications that cause **experimental syntax** (modern JavaScript) errors with some browsers.
 
-Install both packages with the "save" flag, which will save the packages to your package.json file:
+Install both packages (version 7.5.5) with the "save" flag, which will save the packages to your package.json file:
 ```
-npm install @babel/core @babel/plugin-proposal-class-properties --save
+npm install @babel/core@7.5.5 @babel/plugin-proposal-class-properties@7.5.5 --save
 ```
 
 ### Installing core React packages to your application
