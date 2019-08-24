@@ -6,6 +6,7 @@ Simple React 16.9 Starter Application (without Redux).
 This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template for work or to begin work on a personal project.
 
 ### Creation of Application
+**NOTE:** These instructions assume that you have already installed Node.js and can access npm from your computer's command line.
 This application can be generated from scratch by taking the following steps:
 
 Locate a preferred space on your computer and create the **react-16.9-starter** directory:
@@ -13,3 +14,13 @@ Locate a preferred space on your computer and create the **react-16.9-starter** 
 mkdir react-16.9-starter
 ```
 
+Change into the **react-16.9-starter** directory:
+```
+cd react-16.9-starter
+```
+
+Generate a new package.json file in your new React directory:
+```
+npm init -y
+```
+(the **-y** switch will automatically populate all of package.json entries with their respective default values)
