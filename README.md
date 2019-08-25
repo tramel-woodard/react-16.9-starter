@@ -14,6 +14,7 @@ This is a React 16.9 starter application meant for anyone who needs to generate 
 
 
 ## Installation of Application
+IF YOU WOULD LIKE TO INSTALL THIS REACT STARTER, PLEASE FOLLOW THE BELOW INSTRUCTIONS (IF YOU WOULD INSTEAD LIKE TO BUILD THIS REACT APPLICATION FROM SCRATCH, SCROLL DOWN TO THE **CREATION OF APPLICATION** SECTION)
 ### Installation Requirements
 In order to install this beginner app and begin constructing your own modified application (without create-react-app), do the following:
 
@@ -69,6 +70,34 @@ At the root of your application, run the following "dev" command to launch your 
 npm run dev
 ```
 Node should generate the files required for the development version of your application and open your React application in your default browser.
+
+### Modifications to Application (Live Reloading)
+Once your React application is running, you can add, edit or modify the application in any way. Once you modify or add any files, **live-server** will sense any changes to the project and will reload the application in the browser.
+If you code any errors while updating the site, live-server will render the browser window **all black** and will specify the particular error that caused the application to stop working.
+
+### Building the React Application for Production
+#### Build the application JavaScript files
+Once you are ready to publish your finished React application to your production server (or development/test server), you will need to run the "build" command.
+Inside the package.json file, you will find a "build" command in the "scripts" object:
+***package.json***
+```
+  . . .
+  "scripts": {
+    . . .
+    "build": "parcel build src/index.html",
+    . . .
+```
+This "build" command uses the Parcel package to build an entire "browser ready" JavaScript application to a "dist" folder in the root of the React application directory.
+Run the "build" command to build the files, create a "dist" directory and generate the files inside of this directory:
+```
+npm run build
+```
+You will then see all of the appropriate files (including any stylesheets or images you may have added) in the "dist" directory.
+
+#### Moving Production-Ready Files to Your Production Server
+Once you have located the "dist" folder, open whatever application you use to transfer files to your production server (Amazon Web Server, FTP Program, etc.) and move the "dist" files to your productino server's **public** folder.
+
+Your application should now be viewable on whatever domain you have created for your application.
 
 
 ## Creation of Application
