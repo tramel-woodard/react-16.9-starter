@@ -141,5 +141,5 @@ react-16.9-starter
     |-- index.html
     |-- index.js
   |-- node_modules
-  
+  . . .
 ```
