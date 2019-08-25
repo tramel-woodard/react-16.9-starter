@@ -14,6 +14,7 @@ This is a React 16.9 starter application meant for anyone who needs to generate 
 
 
 ## Installation of Application
+### Installation Requirements
 In order to install this beginner app and begin constructing your own modified application (without create-react-app), do the following:
 
 1. Ensure that you have Node.js installed on your computer.
@@ -22,6 +23,7 @@ In order to install this beginner app and begin constructing your own modified a
 4. Navigate to a directory where you will store your React application.
 5. Install the application using one of the 3 options below:
 
+### Clone (or Download) the Application
 #### 1）Clone Application using HTTPS:
 Clone the application to your preferred parent directory (Git will create the application directory itself) using the following Git command:
 ```
@@ -37,7 +39,6 @@ git clone git@github.com:tramel-woodard/react-16.9-starter.git
 2. Confirm where you will download the zip file.
 3. Right-click this link, select "Save link as..." and save to your preferred directory: [React Application Download Link](https://github.com/tramel-woodard/react-16.9-starter/archive/master.zip)
 4. Right-click the zip file and select **"Extract to react-16.9-starter-master/"** option.
-
 
 
 ## Creation of Application
