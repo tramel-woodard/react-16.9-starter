@@ -15,19 +15,19 @@ In order to install this beginner app and begin constructing your own modified a
 1. Ensure that you have Node.js installed on your computer.
 2. Open a command line application (Terminal for Mac, CMD for Windows, Git Bash for Mac or Windows)
 3. Navigate to a directory where you will store your React application.
-4. Install the application using one of the four options below:
+4. Install the application using one of the 3 options below:
 
-### Clone Application using HTTPS:
+#### 1）Clone Application using HTTPS:
 Clone the application to your preferred parent directory (Git will create the application directory itself) using the following Git command:
 ```
 git clone https://github.com/tramel-woodard/react-16.9-starter.git
 ```
-### Clone Application using SSH:
+#### 2） Clone Application using SSH:
 Clone the application to your preferred parent directory (Git will create the application directory itself) using the following Git command:
 ```
 git clone git@github.com:tramel-woodard/react-16.9-starter.git
 ```
-### Download Application (ZIP):
+#### 3. Download Application (ZIP):
 1. Confirm where you will download the zip file.
 2. Right-click this link, select "Save link as..." and save to your preferred directory: [React Application Download Link](https://github.com/tramel-woodard/react-16.9-starter/archive/master.zip)
 3. Right-click the zip file and select **"Extract to react-16.9-starter-master/"** option.
