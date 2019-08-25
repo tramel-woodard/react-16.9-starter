@@ -14,7 +14,7 @@ This is a React 16.9 starter application meant for anyone who needs to generate 
 
 
 ## Installation of Application
-IF YOU WOULD LIKE TO INSTALL THIS REACT STARTER, PLEASE FOLLOW THE BELOW INSTRUCTIONS (IF YOU WOULD INSTEAD LIKE TO BUILD THIS REACT APPLICATION FROM SCRATCH, SCROLL DOWN TO THE **CREATION OF APPLICATION** SECTION)
+If you would like to INSTALL THIS REACT STARTER, please follow the instructions below (if you would like to BUILD THIS REACT APPLICATION FROM SCRATCH, scroll down to the **CREATION OF APPLICATION** section)
 ### Installation Requirements
 In order to install this beginner app and begin constructing your own modified application (without create-react-app), do the following:
 
