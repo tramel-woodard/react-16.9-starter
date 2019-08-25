@@ -22,7 +22,7 @@ Clone the application to your preferred parent directory (Git will create the ap
 ```
 git clone https://github.com/tramel-woodard/react-16.9-starter.git
 ```
-#### 2） Clone Application using SSH:
+#### 2）Clone Application using SSH:
 Clone the application to your preferred parent directory (Git will create the application directory itself) using the following Git command:
 ```
 git clone git@github.com:tramel-woodard/react-16.9-starter.git
