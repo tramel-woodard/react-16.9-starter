@@ -40,6 +40,18 @@ git clone git@github.com:tramel-woodard/react-16.9-starter.git
 3. Right-click this link, select "Save link as..." and save to your preferred directory: [React Application Download Link](https://github.com/tramel-woodard/react-16.9-starter/archive/master.zip)
 4. Right-click the zip file and select **"Extract to react-16.9-starter-master/"** option.
 
+### Install NPM Packages for Application
+Once the application has either been cloned using Git or downloaded and unzipped, visit the parent directory of the folder in your preferred command line interface. Change into the application directory:
+```
+cd react-16.9-starter
+```
+
+Run the Node Package Manager installation command inside the application directory:
+```
+npm install
+```
+Node will then proceed to install all of the required packages for the React application. This may take several minutes, depending on your Internet speed and the speed of your computer.
+
 
 ## Creation of Application
 (**NOTE:** These instructions assume that you have already installed Node.js and can access npm from your computer's command line.)
