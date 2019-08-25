@@ -9,7 +9,7 @@ This is a React 16.9 starter application meant for anyone who needs to generate 
 ### Requirements
 1. Git already installed on your computer ([Download Git](https://git-scm.com/downloads))
 2. Node.js installed on your computer ([Download Node.js](https://nodejs.org/en/download/))
-3. Zip file extractor installed on your computer ([Download WinZip](https://www.winzip.com/win/en/downwz.html){:target="_blank" rel="noopener"})
+3. Zip file extractor installed on your computer ([Download WinZip](https://www.winzip.com/win/en/downwz.html))
 4. Knowlege of command line interface (Terminal, CMD, Git Bash)
 
 
