@@ -5,10 +5,18 @@ Simple React 16.9 Starter Application (without Redux).
 ## Summary
 This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template for work or to begin work on a personal project.
 
+## Installation of Application
+
+
+
 ## Creation of Application
 (**NOTE:** These instructions assume that you have already installed Node.js and can access npm from your computer's command line.)
 
-This application can be generated from scratch by taking the following steps:
+This application can be created from scratch (without the create-react-app command line tool).
+
+This is so you'll have a better understanding of what goes into creating a React application.
+
+We will start by taking the following steps:
 
 ### Build your application directory
 Open your preferred command line interface (i.e. Terminal on Mac, Run CMD on Windows, Git Bash on Mac or Windows). Locate a preferred space on your computer and create the **react-16.9-starter** directory:
@@ -100,9 +108,10 @@ react-16.9-starter
   |-- src
     |-- components
       |-- App.js
+      |-- Comment.js
       |-- Header.js
+      |-- Post.js
       |-- User.js
-      
     |-- index.css
     |-- index.html
     |-- index.js
