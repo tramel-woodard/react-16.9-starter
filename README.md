@@ -101,7 +101,7 @@ Your application should now be viewable on whatever domain you have created for 
 
 
 ## Creation of Application
-(**NOTE:** These instructions assume that you have already installed Node.js and can access npm from your computer's command line.)
+IF YOU WOULD INSTEAD LIKE TO BUILD THIS REACT APPLICATION FROM SCRATCH , please follow the instructions below (IF YOU WOULD LIKE TO INSTALL THE REACT STARTER, scroll up to the **CREATION OF APPLICATION** section)
 
 This application can be created from scratch (without the create-react-app command line tool).
 
