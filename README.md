@@ -5,7 +5,7 @@ Simple React 16.9 Starter Application (without Redux).
 很简单REACT 16.9的入门应用（没有Redux）。
 
 ## Summary
-This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template for work or to begin work on a personal project.
+This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template for work or a quick  personal project.
 ### Requirements
 1. Git already installed on your computer ([Download Git](https://git-scm.com/downloads))
 2. Node.js installed on your computer ([Download Node.js](https://nodejs.org/en/download/))
@@ -51,6 +51,24 @@ Run the Node Package Manager installation command inside the application directo
 npm install
 ```
 Node will then proceed to install all of the required packages for the React application. This may take several minutes, depending on your Internet speed and the speed of your computer.
+
+### Running the Application on Your Computer
+Once all of the Node packages have been installed, you will be able to run the application before you make any modifications to it.
+Inside of the package.json file located at the root of your React application, you will find a "dev" script:
+
+***package.json***
+```
+  . . .
+  "scripts": {
+    "dev": "parcel src/index.html",
+    . . .
+```
+This "dev" command will build your React application, and then open a browser window at **localhost:1234" (specified local address for applications running on **live-server**).
+At the root of your application, run the following "dev" command to launch your React application in your default browser:
+```
+npm run dev
+```
+Node should generate the files required for the development version of your application and open your React application in your default browser.
 
 
 ## Creation of Application
