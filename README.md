@@ -5,6 +5,8 @@ Simple React 16.9 Starter Application (without Redux).
 ## Summary
 This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template for work or to begin work on a personal project.
 
+
+
 ## Installation of Application
 In order to install this beginner app and begin constructing your own modified application (without create-react-app), do the following:
 
@@ -27,6 +29,7 @@ git clone git@github.com:tramel-woodard/react-16.9-starter.git
 1. Confirm where you will download the zip file.
 2. Right-click this link, select "Save link as..." and save to your preferred directory: [React Application Download Link](https://github.com/tramel-woodard/react-16.9-starter/archive/master.zip)
 3. Right-click the zip file and select **"Extract to react-16.9-starter-master/"** option.
+
 
 
 ## Creation of Application
