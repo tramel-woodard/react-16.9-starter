@@ -16,16 +16,16 @@ In order to install this beginner app and begin constructing your own modified a
 ### Clone Application using HTTPS:
 Clone the application to your preferred parent directory (Git will create the application directory itself) using the following Git command:
 ```
-
+git clone https://github.com/tramel-woodard/react-16.9-starter.git
 ```
 ### Clone Application using SSH:
 Clone the application to your preferred parent directory (Git will create the application directory itself) using the following Git command:
 ```
-
+git clone git@github.com:tramel-woodard/react-16.9-starter.git
 ```
 ### Download Application (ZIP):
 1. Confirm where you will download the zip file.
-2. Right-click this link, select "Save As..." and save to your preferred directory: [React Application Download Link](https://github.com/tramel-woodard/react-16.9-starter/archive/master.zip)
+2. Right-click this link, select "Save link as..." and save to your preferred directory: [React Application Download Link](https://github.com/tramel-woodard/react-16.9-starter/archive/master.zip)
 3. Right-click the zip file and select **"Extract to react-16.9-starter-master/"** option.
 
 
