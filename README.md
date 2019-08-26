@@ -168,9 +168,24 @@ npm install @babel/core@7.5.5 @babel/plugin-proposal-class-properties@7.5.5 --sa
 ### Installing core React packages to your application
 Now we will install 1) the **react** package, which contains the main components of the React framework and 2) the **react-dom** package, which contains the DOM (or browser) related functionality of the React application, .
 
-Install both **react** and **react-dom** (version 16.9.0), along with using the **--save** flag to save the packages to the package.json file:
+Install both **react** and **react-dom** (version 16.9.0), along with the **--save** flag to save the packages to the package.json file:
 ```
 npm install react@16.9.0 react-dom@16.9.0 --save
+```
+
+### Installing Packages for Route and State Management
+Now we will install the both the **react-router** and **react-router-dom** packages, which will allow us to maintain our React applications views.
+
+Install both **react-router** and **react-router-dom** (version 5.0.1), along with the **--save** flag to save the packages to the package.json file:
+```
+npm install react-router@5.0.1 react-router-dom@5.0.1 --save
+```
+
+We will also need to install the **history** package in order to manage session history within our React application.
+
+Install **history** (version 4.9.0) along with the **--save** flag to save the packages to the package.json file:
+```
+npm install history@4.9.0 --save
 ```
 
 ### Installing live server for development environment
