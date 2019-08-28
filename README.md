@@ -197,11 +197,11 @@ npm install live-server@1.2.1 --save
 ```
 
 ### Installing Bootstrap for Application Styling
-We will install Bootstrap (version 4.3.1) to help stylize the application's UI.
+We will install the **bootstrap**, **popper.js** and **jquery** packages to help stylize the application's UI.
 
-Install the bootstrap package (version 4.3.1) along with the **--save** flag to save the package to the package.json file:
+Install the Bootstrap package (version 4.3.1), Popper.js (version 1.14.7) and jQuery package (version 3.4.0) along with the **--save** flag to save the package to the package.json file:
 ```
-npm install bootstrap@4.3.1 --save
+npm install bootstrap@4.3.1 popper.js@1.14.7 jquery@3.4.0 --save
 ```
 
 ## Creation of application source files
