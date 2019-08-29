@@ -5,7 +5,7 @@ Simple React 16.9 Starter Application (without Redux).
 很简单REACT 16.9的入门应用（没有Redux）。
 
 ## Summary
-This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template or for a personal project.
+This is a React 16.9 starter application meant for anyone who needs to generate a quick proof of concept template for work or a personal project.
 ### Requirements
 1. Git already installed on your computer ([Download Git](https://git-scm.com/downloads))
 2. Node.js installed on your computer ([Download Node.js](https://nodejs.org/en/download/))
