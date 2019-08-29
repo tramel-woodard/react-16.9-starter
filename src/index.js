@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Switch, Route } from 'react-router-dom';
-import createBrowserHistory from 'history/createBrowserHistory';
+import { Router, Route } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 import App from './components/App';
 import Navigation from './components/Navigation';
 import Users from './components/Users';
