@@ -1,3 +1,6 @@
 body {
     padding-top: 56px;
 }
+.navbar-dark .dropdown-menu {
+    margin-top: 8px;
+}

@@ -1,12 +1,13 @@
 import React, { Component} from 'react';
+import Users from './Users';
 
 class App extends Component {
+
     render() {
         return (
             <div>
-                <div class="container">
-                    <h2>React 16.9 Starter</h2>
-                    <hr />
+                <div className="container">
+                    
                 </div>
             </div>
         );
