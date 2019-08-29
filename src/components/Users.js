@@ -28,18 +28,30 @@ class Users extends Component {
         if (!this.state.users.length) return null;
 
         let users = this.state.users.map((user, i) => (
-            <p key={user.id}>
-                Name: {user.name}<br />
-                Username: {user.username}<br />
-                Email: {user.email}<br />
-                Phone: {user.phone}<br />
-                Website: {user.website}<br />
-            </p>
+            <div className="card-body-frame">
+                <div className="card-body" key={user.id}>
+                    <div className="row">
+                        <div className="col-md-8">
+                            <h1>{user.name}</h1>
+                            <h3>{user.username}</h3>
+                            <h4>{user.email}</h4>
+                            <h5>{user.phone}</h5>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="photo-frame">
+                                <img className="user-photo" src="http://placehold.it/300x300/cccccc" />
+                                <h6>{user.website}</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+            </div>
         ));
 
         return(
             <div>
-                <div className="container">
+                <div className="container pt-3 pb-5">
                     <h3>Users</h3>
                     <hr />
                     {users}
