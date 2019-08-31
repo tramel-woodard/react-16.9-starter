@@ -221,11 +221,12 @@ We will now add a **src** directory with the following files inside:
 react-16.9-starter
   |-- src
     |-- components
+      |-- users
+        |-- UserList.js
       |-- App.js
       |-- Comment.js
       |-- Header.js
       |-- Post.js
-      |-- User.js
     |-- index.css
     |-- index.html
     |-- index.js
