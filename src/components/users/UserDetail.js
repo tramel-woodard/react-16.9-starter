@@ -11,7 +11,7 @@ class UserDetail extends Component {
     }
 
     componentDidMount() {
-        fetch(`${API_ADDRESS}/users?id=` + this.props.match.params.id)
+        fetch(`${API_ADDRESS}/users?id=` + this.state.id)
             .then(response => response.json())
             .then(json => {
                 console.log('user', json);
@@ -25,7 +25,7 @@ class UserDetail extends Component {
                 <div className="container">
                     <h3>User Detail ({})</h3>
                     <hr />
-                    
+
                 </div>
             </div>
         )
