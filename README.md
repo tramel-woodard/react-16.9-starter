@@ -101,7 +101,7 @@ Your application should now be viewable on whatever domain you have created for 
 
 
 ## Creation of Application
-If you would like to BUILD THIS REACT APPLICATION FROM SCRATCH, please follow the instructions below (if you would like to INSTALL THE REACT STARTER, scroll up to the **CREATION OF APPLICATION** section)
+If you would like to BUILD THIS REACT APPLICATION FROM SCRATCH, please follow the instructions below (if you would like to INSTALL THE REACT STARTER, scroll up to the **INSTALLATION OF APPLICATION** section)
 
 This application can be created from scratch (without the create-react-app command line tool).
 
