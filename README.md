@@ -95,7 +95,7 @@ npm run build
 You will then see all of the appropriate files (including any stylesheets or images you may have added) in the "dist" directory.
 
 #### Moving Production-Ready Files to Your Production Server
-Once you have located the "dist" folder, open whatever application you use to transfer files to your production server (Amazon Web Server, FTP Program, etc.) and move the "dist" files to your productino server's **public** folder.
+Once you have located the "dist" folder, open whatever application you use to transfer files to your production server (Amazon Web Server, FTP Program, etc.) and move the "dist" files to your production server's **public** folder.
 
 Your application should now be viewable on whatever domain you have created for your application.
 
