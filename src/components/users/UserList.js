@@ -35,12 +35,6 @@ const API_ADDRESS = 'https://jsonplaceholder.typicode.com';
 
 class UserList extends Component {
     state = { user: {}, users: [] };
-    /* constructor() {
-        super();
-        this.state = {
-            users: []
-        }
-    } */
 
     componentDidMount() {
         this.findUsers();
