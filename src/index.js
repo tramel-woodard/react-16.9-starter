@@ -14,6 +14,7 @@ ReactDOM.render(
     <Router history={createBrowserHistory()}>
         <Route exact path='/' render={() => <Navigation><App /></Navigation>} />
         <Route path='/users' render={() => <Navigation><UserList /></Navigation>} />
+        <Route path='/users/:id' render={(id) => <Navigation><UserDetail id={id} /></Navigation>} />
     </Router>,
     document.getElementById('root')
 );
