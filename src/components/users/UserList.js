@@ -37,10 +37,10 @@ class UserList extends Component {
     state = { user: {}, users: [] };
 
     componentDidMount() {
-        this.findUsers();
+        this.getUsers();
     }
 
-    findUsers = () => {
+    getUsers = () => {
         fetch(`${API_ADDRESS}/users`)
             .then(response => response.json())
             .then(json => {
