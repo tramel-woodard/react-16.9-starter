@@ -22,7 +22,7 @@ class UserDetail extends Component {
 
         return(
             <div>
-                <div className="container">
+                <div className="container pt-3 pb-5">
                     <h3>User Detail ({})</h3>
                     <hr />
 
