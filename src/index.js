@@ -14,8 +14,8 @@ import './assets/css/app.css';
 ReactDOM.render(
     <Router history={createBrowserHistory()}>
         <Route exact path='/' render={() => <Navigation><App /></Navigation>} />
-        <Route path='/users' render={() => <Navigation><UserList /></Navigation>} />
-        <Route path='/user/:id' render={(props) => <Navigation><UserDetail {...props} /></Navigation>} />
+        <Route exact path='/users' render={() => <Navigation><UserList /></Navigation>} />
+        <Route path='/users/:id' render={(props) => <Navigation><UserDetail {...props} /></Navigation>} />
     </Router>,
     document.getElementById('root')
 );

@@ -11,7 +11,7 @@ const User = ({
         website
     }
 }) => (
-    <Link className="card-body-frame" to={`/user/${id}`}>
+    <Link className="card-body-frame" to={`/users/${id}`}>
         <div className="card-body" key={id}>
             <div className="row">
                 <div className="col-md-8">
