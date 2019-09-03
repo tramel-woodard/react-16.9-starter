@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 const User = ({
     user: {
@@ -10,7 +11,7 @@ const User = ({
         website
     }
 }) => (
-    <div className="card-body-frame">
+    <Link className="card-body-frame" to={`/user/${id}`}>
         <div className="card-body" key={id}>
             <div className="row">
                 <div className="col-md-8">
@@ -28,7 +29,7 @@ const User = ({
             </div>
         </div>
         <hr />
-    </div>
+    </Link>
 );
 
 const API_ADDRESS = 'https://jsonplaceholder.typicode.com';
@@ -52,7 +53,7 @@ class UserList extends Component {
     render() {
         return(
             <div>
-                <div className="container pt-3 pb-5">
+                <div className="container user-list-container pt-3 pb-5">
                     <h3>Users</h3>
                     <hr />
                     {this.state.users.map(user => (<User key={user.id} user={user} />))}
