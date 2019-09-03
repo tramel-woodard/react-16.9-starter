@@ -15,10 +15,10 @@ const User = ({
         <div className="card-body" key={id}>
             <div className="row">
                 <div className="col-md-8">
-                    <h1>{name}</h1>
-                    <h3>{username}</h3>
-                    <h4>{email}</h4>
-                    <h5>{phone}</h5>
+                    <h2>{name}</h2>
+                    <h4>{username}</h4>
+                    <h5>{email}</h5>
+                    <h6>{phone}</h6>
                 </div>
                 <div className="col-md-4">
                     <div className="photo-frame">
