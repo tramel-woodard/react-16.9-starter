@@ -22,6 +22,7 @@ const Detail = ({
         </div>
         <div className="row">
             <div className="col-md-8">
+                <h5><span>Name</span> {name}</h5>
                 <h5><span>Username</span> {username}</h5>
                 <h5><span>Email</span> {email}</h5>
                 <h5><span>Phone</span> {phone}</h5>
